@@ -17,10 +17,12 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    color: var(--Light-Gray);
     background-color: var(--Light-Gray);
 }
 main {
-    width: 75%;
+    width: 75vw;
+    height: 90vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
@@ -36,7 +38,7 @@ h1 {
 }
 h2 {
     color: var(--Light-Gray);
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 15px;
 }
 .community {
@@ -45,11 +47,48 @@ h2 {
 .community h2 {
     color: var(--Bright-Yellow);
 }
+.community p {
+    color: var(--Grayish-Blue);
+    line-height: 25px;
+}
 .subscription {
     background-color: var(--Cyan);
+}
+.subscription span:nth-of-type(1) {
+    font-size: 30px;
+    font-weight: bold;
+}
+.subscription span:nth-of-type(2) {
+    color: hsl(203deg 44% 93% / 70%);
+    display: inline-block;
+    margin-left: 10px;
+}
+.subscription p{
+    margin: 10px 0;
+}
+.pricing-container {
+    display: flex;
+    align-items: center;
+}
+.subscription button {
+    background-color: var(--Bright-Yellow);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    width: 95%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    box-shadow: 1px 4px 10px 0px hsl(228deg 6% 56%);
+
 }
 .whyus {
     background-color: #4abebd;
 }
-.attribution { font-size: 11px; text-align: center; }
+.whyus ul {
+    list-style: none;
+    line-height: 20px;
+}
+.attribution { color: hsl(228, 45%, 44%); font-size: 11px; text-align: center; margin-top: 50px;}
 .attribution a { color: hsl(228, 45%, 44%); }
