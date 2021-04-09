@@ -9,7 +9,7 @@ main {
     grid-template-rows: 0.7fr 1fr;
     width: 45%;
     height: 45%;
-    margin: 80px 240px 20px 240px;
+    margin: 80px 300px 20px 300px;
 }
 .community {
     grid-row: 1 / 2;
