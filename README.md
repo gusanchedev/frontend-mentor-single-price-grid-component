@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./desktop-peview.jpg)
+![](./design/desktop-preview.jpg)
 
 ### Links
 
